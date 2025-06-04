@@ -20,14 +20,14 @@ This section documents the internal components of the console.
 ### Internal Components
 
 - **Main PCB** contains a chip-on-board (COB).
-![Main PCB - COB View](assets/COB_View.jpg)
+![Main PCB - COB View](Assets/Hardware/COB_View.jpg)
 - **LCD display** powered with horizontal zerba stripe connections.
-![Main PCB - LCD View](assets/LCD_Veiw.jpg)
+![Main PCB - LCD View](Assets/Hardware/LCD_Veiw.jpg)
 - **Speaker** wired to audio output.
 - **Buttons** connected with ribbon cable.
-![Button PCB - Button Interface](assets/Button_Interface.jpg)
+![Button PCB - Button Interface](Assets/Hardware/Button_Interface.jpg)
 - **Power section** includes:
-![Power Section](assets/Power_Section.jpg)
+![Power Section](Assets/Hardware/Power_Section.jpg)
     - 10 microfarad electrolytic capacitor (smoothing).
     - 0.1 microfarad ceramic caps (104) (decoupling).
     - Two metal oxide varistor (MOVs) for surge protection.
