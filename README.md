@@ -10,4 +10,4 @@ console, routers, cameras, etc. I want to take apart snything I can get my hands
 
 ## In Progress
 
-## TODO
+## Pending
