@@ -4,6 +4,9 @@ This is my first documented project on my process of reverse engineering a retro
 document my entire process from tracing the PCB to wiring it to a logic analyzer, finally trying to 
 add my own components ( sort of this is a draft idk what the end goal is )
 
+<br>![Front Console](./Assets/Front_Console.jpg)
+<br>![Open Console](./Assets/Open_Console.jpg)
+
 ## Playing the Game
 
 ## Hardware Overview
@@ -19,21 +22,25 @@ This section documents the internal components of the console.
 
 ### Internal Components
 
+<br>![Top View of Hardware](./Assets/Top_View_Hardware.jpg)
+
 - **Main PCB** contains a chip-on-board (COB).
-![Main PCB - COB View](Assets/Hardware/COB_View.jpg)
 - **LCD display** powered with horizontal zerba stripe connections.
-![Main PCB - LCD View](Assets/Hardware/LCD_Veiw.jpg)
 - **Speaker** wired to audio output.
+- **Buttons PCB**
+<br>![Button PCB - Button Interface](./Assets/Button_Interface.jpg)
 - **Buttons** connected with ribbon cable.
-![Button PCB - Button Interface](Assets/Hardware/Button_Interface.jpg)
+<br>![Button Ribbon Cables](./Assets/Button_Ribbon_Cables.jpg)
 - **Power section** includes:
-![Power Section](Assets/Hardware/Power_Section.jpg)
+<br>![Power Section](./Assets/Power_Section.jpg)
     - 10 microfarad electrolytic capacitor (smoothing).
     - 0.1 microfarad ceramic caps (104) (decoupling).
     - Two metal oxide varistor (MOVs) for surge protection.
     - Various resistors.
 
 ## Circuit Schematics
+
+<br>![Documented Ciruit](./Docs/Whole_Circuit_Trace.jpg)
 
 ## Logic Analyzer
 
