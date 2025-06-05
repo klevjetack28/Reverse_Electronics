@@ -6,7 +6,7 @@ console, routers, cameras, etc. I want to take apart snything I can get my hands
 
 ## Completed
 
- - ![Rush Hour](/Rush_Hour/README)
+ - ![Rush Hour](/Rush_Hour/README.md)
 
 ## In Progress
 
