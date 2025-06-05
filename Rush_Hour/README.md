@@ -22,7 +22,7 @@ This section documents the internal components of the console.
 - **Main PCB** contains a chip-on-board (COB).
 <br>![Main PCB - COB View](Assets/Hardware/COB_View.jpg)
 - **LCD display** powered with horizontal zerba stripe connections.
-![Main PCB - LCD View](Assets/Hardware/LCD_Veiw.jpg)
+<br>![Main PCB - LCD View](Assets/Hardware/LCD_Veiw.jpg)
 - **Speaker** wired to audio output.
 - **Buttons** connected with ribbon cable.
 ![Button PCB - Button Interface](Assets/Hardware/Button_Interface.jpg)
