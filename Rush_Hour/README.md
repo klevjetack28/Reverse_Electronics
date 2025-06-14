@@ -46,11 +46,11 @@ The whole circuit consists of two PCBs. There is one PCB that houses COB that co
 other PCB controlls the button map connected through a 14 wire wide ribbon cable. This cable connects a VCC, GND, ans 12 button terminals.  
 
 The main circuit consists of X number of connections to the COB, the number of connections include:
-    - Various connections from capacitors.
-    - 12 button connections.
-    - Y LCD connections.
-    - Two sound connections.
-    - Four COM connections.
+- Various connections from capacitors.
+- 12 button connections.
+- Y LCD connections.
+- Two sound connections.
+- Four COM connections.
 
 This is the pirmary circuit. It has everything it needs for speaker output, reliable buttons, consistent voltage, and a compact monocrome
 display.
