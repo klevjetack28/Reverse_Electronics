@@ -42,11 +42,24 @@ This section documents the internal components of the console.
 
 ![Documented Ciruit](./Docs/Whole_Circuit_Trace.jpg)
 
+The whole circuit consists of two PCBs. There is one PCB that houses COB that controlls the main game logic. The
+other PCB controlls the button map connected through a 14 wire wide ribbon cable. This cable connects a VCC, GND, ans 12 button terminals.  
+
+The main circuit consists of X number of connections to the COB, the number of connections include:
+    - Various connections from capacitors.
+    - 12 button connections.
+    - Y LCD connections.
+    - Two sound connections.
+    - Four COM connections.
+
+This is the pirmary circuit. It has everything it needs for speaker output, reliable buttons, consistent voltage, and a compact monocrome
+display.
+
 ## Logic Analyzer
 
-## Ect
+### Configure PulseView
 
-## Difficulties
+### Analysis
 
 ## What I Learned
 
@@ -59,3 +72,8 @@ keep a constant voltage and have less spikes.
 
 The Buttons have one connection to VCC and GND and their ribbon cable. once the button is pressed it completes the circuit.
 It is very simple and makes sense just it was my first time tracing it andexeriencing it in front of me so it was really cool.
+
+I was shocked at how simple the whole system was. I understand that this game was made in the early 2000s and it was made to be
+cheap but the system is surpisingly small. I don't know what I was expexting but there is just buttons; one wire for each button,
+connections for consisten, smooth, voltage throughout the system, two speaker connections, and a lot of connectons of the LCD. That
+is the entire circuit and all the hardware it takes to create a fun, small game.
