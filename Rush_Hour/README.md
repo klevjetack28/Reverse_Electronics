@@ -57,9 +57,8 @@ display.
 
 ## Logic Analyzer
 
-### Configure PulseView
+A logic analyzer is very hard to do woth this circuit because there are no microchips to connect to their pins and the gold tabs are very close together i do not have the tools to solder wires to them and analyze the output. 
 
-### Analysis
 
 ## What I Learned
 
