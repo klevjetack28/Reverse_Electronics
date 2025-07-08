@@ -5,9 +5,9 @@
 #include <dirent.h>
 #include <stdlib.h>
 
-#define BUF_SIZE 6144
+#define BUF_SIZE 10000
 #define SIG_SIZE 49152
-#define RECIPE_SIZE 100000
+#define RECIPE_SIZE 2048
 #define MAX_COUNT 128
 
 unsigned char buffer[BUF_SIZE];
@@ -15,13 +15,15 @@ unsigned char idle[BUF_SIZE];
 unsigned char signal[SIG_SIZE]; 
 char          recipe[RECIPE_SIZE];
 
-void init_recipe()
+void init_recipe(char* filename)
 {
+    char temp[48];
+    snprintf(temp, sizeof(temp), "const uint16_t %s[] = {", filename);
     memset(recipe, '\0', sizeof(recipe));
-    strncpy(recipe, "const Signal signalRecipe[] PROGMEM = {", sizeof(recipe) - 1);
+    strncpy(recipe, temp, sizeof(recipe) - 1);
 }
 
-void add_signal(int count, char type)
+void add_signal(int count, int index)
 {
     if (count == 0)
     {
@@ -30,45 +32,42 @@ void add_signal(int count, char type)
     }
 
     char temp[32];
-    snprintf(temp, sizeof(temp), "\n\t(\'%c\', %d),", type, count);
-    printf("String: %s\n", temp);
+    if (index % 10 == 0)
+    {
+        snprintf(temp, sizeof(temp), "%d, \n\t\t\t", count * 10);
+    }
+    else 
+    {
+        snprintf(temp, sizeof(temp), "%d, ", count * 10);
+    }
     strncat(recipe, temp, sizeof(recipe) - strlen(recipe) - 1);
 }
 
-void create_recipe()
+void create_recipe(char* filename)
 {
-    init_recipe();
-    int count = 0;
-    for (int i = 0; i < strlen(signal);)
+    init_recipe(filename);
+    int i = 0,count = 0, recipeIndex = 1;
+    while (signal[i + 2] != '\0')
     {
-        if (signal[i] == '1')
+        while (signal[i] != signal[i + 1] || signal[i + 1] != signal[i + 2]) //signal[i] ^ signal[i + 1] ^ signal[i + 2] > 0)
         {
-            while (signal[i] == '1')
-            {
-                count++;
-                printf("%c\n", signal[i]);
-                i++;
-            }
-            add_signal(count++, 'H');
+            count++;
+            i++;
         }
-        else if (signal[i] == '0')
+        add_signal(count, recipeIndex);
+        recipeIndex++;
+        count = 0;
+
+        while (signal[i] == signal[i + 1] && signal[i + 1] == signal[i + 2]) //signal[i] ^ signal[i + 1] ^ signal[i + 2] == 0)
         {
-            while (signal[i] == '0')
-            {
-                count++;
-                printf("%c\n", signal[i]);
-                i++;
-            }
-            add_signal(count++, 'L');
+            count++;
+            i++;
         }
-        else
-        {
-            
-            printf("Not High or Low\n");
-        }
+        add_signal(count, recipeIndex);
+        recipeIndex++;
         count = 0;
     }
-    strncat(recipe, "\n};\n", sizeof(recipe) - strlen(recipe) - 1);
+    strncat(recipe, "};\n\0", sizeof(recipe) - strlen(recipe) - 1);
 }
 
 // make faster with double pointer from each side
@@ -101,7 +100,7 @@ void pin_one()
     }
 }
 
-void parse_binary(char *input, char *output)
+void parse_binary(char* filename, char *input, char *output)
 {
     FILE *binary = fopen(input, "rb");                   // Open the file
     if (binary == NULL)                                     // Check for errors
@@ -142,7 +141,7 @@ void parse_binary(char *input, char *output)
         fprintf(stderr, "Error opening file: %s", output);
         return;
     }
-    create_recipe();
+    create_recipe(filename);
     fwrite(recipe, 1, RECIPE_SIZE, out_data);
     fclose(binary);
     fclose(out_data);
@@ -160,6 +159,7 @@ int main(int argc, char *argv[])
     int index = 0;
     char input[64];
     char output[64];
+    char filename[64];
     struct dirent *dir;
     for (int i = 0; (dir = readdir(d)) != NULL; i++)
     {   
@@ -172,9 +172,11 @@ int main(int argc, char *argv[])
         strcpy(output, "./Data/Arduino_");
         strlcat(input, dir->d_name, sizeof(input));
         strlcat(output, dir->d_name, sizeof(output));
-        parse_binary(input, output);
+        strcpy(filename, dir->d_name);
+        filename[strlen(filename) - 11] = '\0';
+        printf("%s\n", filename);
+        parse_binary(filename, input, output);
     }
     free(d);
     return 0;
 }
-
