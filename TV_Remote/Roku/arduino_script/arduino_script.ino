@@ -3,7 +3,21 @@
 #include <avr/interrupt.h>
 
 #define IR_PIN 3
-#define BUT_PIN 4
+#define MACRO1 6
+#define MACRO2 7
+#define MACRO3 8
+#define MACRO4 9
+#define MACRO5 10
+#define MACRO6 11
+#define MACRO7 12
+#define MACRO8 13 
+
+struct SignalEntry
+{
+  const char* name;
+  const uint16_t* data;
+  size_t size;
+};
 
 const uint16_t Disney_Plus[] PROGMEM = {9020, 4490, 580, 540, 590, 1670, 580, 540, 590, 1670, 
       580, 540, 590, 1670, 580, 1670, 590, 1660, 590, 1660, 
@@ -321,13 +335,6 @@ const uint16_t OK[] PROGMEM = {9020, 4490, 590, 540, 590, 1660, 590, 540, 590, 1
       580, 550, 580, 550, 580, 540, 590, 540, 590, 1670, 
       580, 1660, 590};
 
-struct SignalEntry
-{
-  const char* name;
-  const uint16_t* data;
-  size_t size;
-};
-
 SignalEntry signalMap[] = {
   {"Disney_Plus", Disney_Plus, sizeof(Disney_Plus) / sizeof(uint16_t) }, 
   {"Volume_Up", Volume_Up, sizeof(Volume_Up) / sizeof(uint16_t) }, 
@@ -367,10 +374,17 @@ void setup() {
   Serial.begin(9600);
   
   pinMode(IR_PIN, OUTPUT);
-  pinMode(BUT_PIN, INPUT);
+  pinMode(MACRO1, INPUT);
+  pinMode(MACRO2, INPUT);
+  pinMode(MACRO3, INPUT);
+  pinMode(MACRO4, INPUT);
+  pinMode(MACRO5, INPUT);
+  pinMode(MACRO6, INPUT);
+  pinMode(MACRO7, INPUT);
+  pinMode(MACRO8, INPUT);
   
   // --- Timer2: 38kHz PWM on pin 3 (OC2B) ---
-  TCCR2A = _BV(COM2B1) | _BV(WGM21) | _BV(WGM20);
+  TCCR2A = _BV(WGM21) | _BV(WGM20);
   TCCR2B = _BV(WGM22) | _BV(CS21);
   OCR2A = 51;
   OCR2B = OCR2A / 2;
@@ -380,9 +394,7 @@ void setup() {
   TCCR1A = 0;
   TCCR1B = 0;
   TCCR1B |= _BV(WGM12);
-  TCCR1B |= _BV(CS11); // 2 MHz (0.5 µs ticks)
   OCR1A = (currentSignal.data[0] * 2) - 1;
-  TIMSK1 |= _BV(OCIE1A);
   sei();
 }
 
@@ -417,7 +429,7 @@ ISR(TIMER1_COMPA_vect) {
       TCCR2A |= _BV(COM2B1);  // enable PWM
     } else {
       TCCR2A &= ~_BV(COM2B1); // disable PWM
-      PORTD &= ~_BV(PD3);
+      PORTD &= _BV(PD3);
     }
 
     uint16_t delay = buffer[signalIndex];
@@ -441,7 +453,7 @@ ISR(TIMER1_COMPA_vect) {
     TCCR1B &= ~_BV(CS11);
     TIMSK1 &= ~_BV(OCIE1A);
     TCCR2A &= ~_BV(COM2B1);
-    PORTD &= ~_BV(PD3);
+    PORTD &= _BV(PD3);
     isTransmitting = false;
   }
 }
@@ -454,24 +466,40 @@ void loadbuffer(size_t size)
   }
 }
 
+const int num_macros = 8;
+bool macros[num_macros];
+
+#define DEFAULT_DELAY 500
+
+int macroMap[num_macros][16][2] = {
+  { {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, DEFAULT_DELAY}, {1, 0}},
+  { {12, 3000}, {8, DEFAULT_DELAY}, {19, 7000}, {19, 3000}, {15, DEFAULT_DELAY}, {15, DEFAULT_DELAY}, {15, 1000}, {19, 3000}, {19, DEFAULT_DELAY}}
+};
+
+const int macroLength[num_macros] = { 10, 9 };
+
 void loop() {
-  static bool lastButtonState = HIGH;
-  bool currentButtonState = digitalRead(BUT_PIN);
-
-  if (lastButtonState == HIGH && currentButtonState == LOW && !isTransmitting) {
-    // Button was just pressed
-    isTransmitting = true;
-    signalIndex = 0;
-    signalArrIndex = signalArrIndex % (sizeof(signalMap) / sizeof(signalMap[0]));
-    currentSignal = signalMap[signalArrIndex++];
-    Serial.println(currentSignal.name);
-    signalLength = currentSignal.size;
-    loadbuffer(signalLength);
-    // Reset Timer1 and enable
-    TCNT1 = 0;
-    TCCR1B |= _BV(CS11);
-    TIMSK1 |= _BV(OCIE1A);
+  for (int i = 0; i < num_macros; i++)
+  {
+    macros[i] = digitalRead(MACRO1 + i);
+  
+    if (macros[i] == HIGH && !isTransmitting) {
+      for (int j = 0; j < macroLength[i]; j++)
+      {
+        int macroIndex = macroMap[i][j][0];
+        // Button was just pressed
+        isTransmitting = true;
+        signalIndex = 0;
+        currentSignal = signalMap[macroIndex];
+        Serial.println(currentSignal.name);
+        signalLength = currentSignal.size;
+        loadbuffer(signalLength);
+        // Reset Timer1 and enable
+        TCNT1 = 0;
+        TCCR1B |= _BV(CS11);
+        TIMSK1 |= _BV(OCIE1A);
+        delay(macroMap[i][j][1]);
+      }
+    }
   }
-
-  lastButtonState = currentButtonState;
 }
