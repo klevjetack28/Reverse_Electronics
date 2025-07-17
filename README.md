@@ -10,4 +10,7 @@ console, routers, cameras, etc. I want to take apart snything I can get my hands
 
 ## In Progress
 
+- ![Roku Remote Macros](/TV_Remote/Roku/)
+- ![Router Vulnerability Research](/Router/TP_Link)
+
 ## Pending
