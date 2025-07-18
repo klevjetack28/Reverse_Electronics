@@ -1,0 +1,351 @@
+./lib/libubox.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./lib/libgcc_s.so.1: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./lib/libcrypt-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/ld-uClibc-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), static-pie linked, no section header
+./lib/libutil-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/libuClibc-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/libdl-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/modules/3.3.8/iptable_mangle.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/bonding.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sha1_generic.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_TCPMSS.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ppp_generic.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_snmp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/act_police.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/fast-classifier.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/em_cmp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/compat_xtables.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_snmp_basic.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_connmark.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/aead.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/gpio-button-hotplug.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/domain_redirect.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_connbytes.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/br-filter.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_ECN.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_sip.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/pptp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_string.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_REJECT.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cls_route.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_htb.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/liblog.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cryptomgr.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/l2tp_netlink.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/gre.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_ecn.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_netlink.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_DSCP.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_owner.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath79_wdt.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/iptable_raw.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nls_utf8.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_proto_gre.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath_hal.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nls_cp437.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_statistic.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_comment.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_pptp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/usb-common.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ecb.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ip_tables.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_ftp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cls_flow.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/crypto_blkcipher.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/usb-storage.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_mark.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/tun.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/hst_tx99.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sit.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/domain_dns.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_irc.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_broadcast.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_MASQUERADE.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_pptp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_dscp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_layer7.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/iptable_nat.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/arc4.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/em_text.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/asf.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_ipv4.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_codel.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_amanda.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/em_meta.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/fuse.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_tftp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_rtsp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath_spectral.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_pkttype.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_physdev.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_h323.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cls_u32.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath_dfs.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/l2tp_core.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_NOTRACK.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_httphost.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/act_ipt.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_quota.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_proto_gre.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_hl.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/iptvx.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/em_u32.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_fq_codel.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/tunnel6.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_CT.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cls_tcindex.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipv6-pass-through.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/em_nbyte.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_multiport.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/scsi_mod.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_amanda.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/tunnel4.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/usbcore.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/umac.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ts_kmp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath_dev.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/crc-ccitt.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sd_mod.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_helper.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_iprange.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ppp_async.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_tftp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_state.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_tcpmss.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nls_iso8859-1.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cls_fw.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_conntrack.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/act_mirred.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_time.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/statistics.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_ingress.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/iptable_filter.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/domain_tip.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_HL.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_app.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ts_fsm.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_rtsp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ip_gre.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/adf.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ts_bm.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_sip.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_dsmark.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/crypto_hash.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ip6_tables.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_limit.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/cls_basic.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/crypto_algapi.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_red.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_CLASSIFY.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_tbf.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/shortcut-fe.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_TRIGGER.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/l2tp_ppp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_defrag_ipv4.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/slhc.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/x_tables.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ip6table_mangle.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/domain_libs.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_sfq.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_irc.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_prio.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_hfsc.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_teql.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_tcpudp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/leds-gpio.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath_rate_atheros.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/act_skbedit.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/sch_gred.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/qca-ssdk.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_nat_ftp.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_mac.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ip6_tunnel.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nfnetlink.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_recent.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_NETMAP.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipv6.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/nf_conntrack_h323.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/pppox.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ath_pktlog.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/wportal.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/pppoe.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_LOG.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ppp_mppe.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/ipt_REDIRECT.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/3.3.8/xt_length.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/modules/kcodes/NetUSB.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), BuildID[sha1]=7449df51a3e14689f4dcb138f07893a9ee8a48c1, not stripped
+./lib/modules/kcodes/GPL_NetUSB.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), BuildID[sha1]=2f258523db7006dc7dff0fbf22146a3a595b23c0, not stripped
+./lib/modules/ehci-hcd.ko: ELF 32-bit MSB relocatable, MIPS, MIPS32 rel2 version 1 (SYSV), not stripped
+./lib/libpthread-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/libuci.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./lib/librt-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/libubus.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./lib/libm-0.9.33.2.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter ld-uClibc.so.0, no section header
+./lib/libblobmsg_json.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./lib/libstdc++.so.6.0.16: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./lib/lua/ubus.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./sbin/ubusd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/fdisk: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/swaplabel: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/uci: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/swconfig: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/netifd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/swapon: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/udevtrigger: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/blkid: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/mkswap: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./sbin/hotplug2: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./bin/busybox: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./bin/ubus: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./bin/opkg: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/lib/libz.so.1.2.7: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libnetfilter_conntrack.so.3.1.3: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libssl.so.1.0.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libiconv.so.2.4.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libintl.so.8.1.1: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libcyassl.so.5.1.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/liblzo2.so.2.0.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libmenu.so.5.7: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libnfnetlink.so.0.2.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/pptpd/pptpd-logwtmp.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/liblog.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libip6tc.so.0.1.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libjson-c.so.2.0.1: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libform.so.5.7: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/uhttpd_ubus.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/uhttpd_tls.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libjson.so.0.1.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/wifi/libtlvtemplate.so: ELF 32-bit MSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked, no section header
+./usr/lib/wifi/libtlvutil.so: ELF 32-bit MSB shared object, MIPS, MIPS-I version 1 (SYSV), dynamically linked, no section header
+./usr/lib/iptables/libxt_app.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/iptables/libipt_TRIGGER.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/iptables/libxt_httphost.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libpolarssl.so.1.2.12: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libncurses.so.5.7: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libpanel.so.5.7: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libfcgi.so.0.0.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libiwinfo.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/liblua.so.5.1.4: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libcrypto.so.1.0.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libogg.so.0.6.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libbz2.so.1.0.6: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libip4tc.so.0.1.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libledctrl.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libdaemon.so.0.5.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libblkid.so.1.1.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libpcap.so.1.1.1: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libxtables.so.10.0.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libuuid.so.1.3.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libnl-tiny.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/log-i18n/en_US.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/log-i18n/meta.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libntfs-3g.so.86.0.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libstdc++.so.6.0.16: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libcurl.so.4.3.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/libusb-1.0.so.0.1.0: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/luarsa.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/ssl.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/uci.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/socket.so.2.0.2: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/ubus.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/mime.so.1.0.2: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/nixio.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/luci/template/parser.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/logread.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/log.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/lib/lua/iwinfo.so: ELF 32-bit MSB shared object, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, no section header
+./usr/sbin/bcrelay: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/chat: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/pppoe-discovery: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/dhcp6s: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/ssdk_sh: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), statically linked, no section header
+./usr/sbin/xl2tpd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/dosd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/tx99tool: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/wpa_supplicant: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/logd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/imbd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/radartool: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/conntrack: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/pptpd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/dhcp6c: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/ping6: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/pptpctrl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/apstats: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/spectraltool: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/openvpn: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/pppd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/athstatsclr: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/hostapd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/ip: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/athtestcmd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/dnslookup: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/logx: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/pktlogdump: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/conn-indicator: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/wifitool: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/usbshare: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/ftpshut: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/devmem: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/minidlnad: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/samba_multicall: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/tfstats: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/radvdctl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/iptvc: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/dropbear: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/xtables-multi: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/acfg_tool: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/improxy: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/uhttpd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/ntpd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/pktlogconf: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/tsched: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/iwconfig: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/proftpd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/hostapd_cli: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/sysmond: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/athstats: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/bpalogin: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/dnsmasq: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/6rdcalc: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/brctl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/wpa_cli: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/athdiag: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/miniupnpd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/80211stats: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/tc: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/radvd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/wlanconfig: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/wrapd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/sbin/vpn_mgmt: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ledctrl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/tmpServer: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/switch_led: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/factory_settings_reset: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/cloud-https: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/openssl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/jshn: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/luarsa_keys_gen: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/flock: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/wportalctrl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/nvrammanager: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ftptop: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/curl: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/tddp: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/cloud-client: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/amuled: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ntfs-3g.probe: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/resolveip: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/cgi-fcgi: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/cloud-brd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ledcli: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ntfs-3g: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ftpwho: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/aria2c: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/smartipd: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/ftpcount: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/lua: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/wps_led: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
+./usr/bin/client_mgmt: ELF 32-bit MSB executable, MIPS, MIPS32 rel2 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, no section header
