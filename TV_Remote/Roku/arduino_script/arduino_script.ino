@@ -370,6 +370,60 @@ uint16_t buffer[256];
 SignalEntry currentSignal = signalMap[signalArrIndex];
 size_t signalLength = currentSignal.size;
 
+Arduino macros code
+
+#define ROWS 4
+#define COLS 4
+
+Int rowPins[ROWS] = { 1, 2, 3, 4 };
+Int colPins[COLS] = { 5, 6, 7, 8 };
+
+Void init_buttons()
+{
+    For (int i = 0; i < ROWS; I++)
+    {
+        Pinmode(rowPins[i], OUTPUT);
+        digitalWrite(rowPins[i], HIGH);
+    }
+    For (int i = 0; i < COLS; i++);
+    {
+         Pinmode(colPins[i], INPUT_PULLUP);
+    }
+}
+
+Void setup()
+{
+    Init_buttons();
+}
+
+Int matrix_pressed()
+{
+    For (int i = 0; i < ROWS; i++)
+    {
+         DigitalWrite(rowPins[i], LOW);
+         For (int j = 0; j < COLS; j++)
+         {
+                If (DigitalRead(colPins[i]) == LOW)
+                {
+                     Return i * 10 + j;
+                }
+         }
+         DigitalWrite(rowPins[i], HIGH);
+    }
+
+    Delay(10);
+    Return -1;
+}
+
+Void loop()
+{
+    Int index = 0, row = 0, col = 0;
+    If ((index = matrix_pressed()) != -1)
+   {
+          Serial.println(index);
+    }
+}
+
 void setup() {
   Serial.begin(9600);
   
