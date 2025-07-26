@@ -3,7 +3,71 @@
 #include <avr/interrupt.h>
 
 #define IR_PIN 3
+LCD code
 
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+#define LCD_WIDTH 16
+#define LCD_HIEGHT 2
+#define LCD_ADDRESS 0x27
+LiquidCrystal_I2C lcd(LCD_ADDRESS, LCD_WIDTH, LCD_HEIGHT);
+
+Void setup()
+{
+    lcd.init();
+    lcd.backlight();
+}
+
+#define MSG_BUF LCD_HEIGHT
+
+struct Message
+{
+    char* name;
+    int index;
+} messages[MSG_BUF];
+
+Void make_message(char &str, Message msg)
+{
+    // concat index + > + str1 like 2>VolumeDown
+
+}
+
+Void print_option()
+{
+    char* message[LCD_WIDTH];
+    make_message(message, messages[0]);
+    lcd.setCursor(0, 0);
+    lcd.print(message);
+    make_message(message, messages[1]);
+    lcd.setCursor(1, 0);
+    lcd.print(message);
+}
+
+void cycle_up() 
+{
+    Message temp;
+    temp.name = messages[1].name;
+    temp.index = messages[1].index;
+    // check index bounds loop around
+    messages[1].name = // signal map name
+    messages[1].index = temp.index + 1;
+    messages[0].index = temp.name;
+    messages[0].index = temp.index;
+}
+
+void cycle_down()
+{
+  // same as cycle up but reverse its index - 1 and you temp messages[0]
+}
+
+#define MACRO_ROWS 2
+#define MACRO_COLUMNS 5
+#define OFFSET 3
+void display_macros()
+{
+  
+}
 struct SignalEntry
 {
   const char* name;
