@@ -3,14 +3,6 @@
 #include <avr/interrupt.h>
 
 #define IR_PIN 3
-#define MACRO1 6
-#define MACRO2 7
-#define MACRO3 8
-#define MACRO4 9
-#define MACRO5 10
-#define MACRO6 11
-#define MACRO7 12
-#define MACRO8 13 
 
 struct SignalEntry
 {
@@ -370,72 +362,49 @@ uint16_t buffer[256];
 SignalEntry currentSignal = signalMap[signalArrIndex];
 size_t signalLength = currentSignal.size;
 
-Arduino macros code
-
 #define ROWS 4
 #define COLS 4
 
-Int rowPins[ROWS] = { 1, 2, 3, 4 };
-Int colPins[COLS] = { 5, 6, 7, 8 };
+int rowPins[ROWS] = { 10, 11, 12, 13 };
+int colPins[COLS] = { 6, 7, 8, 9 };
 
-Void init_buttons()
+void init_buttons()
 {
-    For (int i = 0; i < ROWS; I++)
+    for (int i = 0; i < ROWS; i++)
     {
-        Pinmode(rowPins[i], OUTPUT);
+        pinMode(rowPins[i], OUTPUT);
         digitalWrite(rowPins[i], HIGH);
     }
-    For (int i = 0; i < COLS; i++);
+    for (int j = 0; j < COLS; j++)
     {
-         Pinmode(colPins[i], INPUT_PULLUP);
+         pinMode(colPins[j], INPUT_PULLUP);
     }
 }
 
-Void setup()
+int matrix_pressed()
 {
-    Init_buttons();
-}
-
-Int matrix_pressed()
-{
-    For (int i = 0; i < ROWS; i++)
+  int result = -1;
+    for (int i = 0; i < ROWS; i++)
     {
-         DigitalWrite(rowPins[i], LOW);
-         For (int j = 0; j < COLS; j++)
+         digitalWrite(rowPins[i], LOW);
+         for (int j = 0; j < COLS; j++)
          {
-                If (DigitalRead(colPins[i]) == LOW)
+                if (digitalRead(colPins[j]) == LOW)
                 {
-                     Return i * 10 + j;
+                    result = i * 10 + j;
                 }
+                
          }
-         DigitalWrite(rowPins[i], HIGH);
+         digitalWrite(rowPins[i], HIGH);
     }
-
-    Delay(10);
-    Return -1;
-}
-
-Void loop()
-{
-    Int index = 0, row = 0, col = 0;
-    If ((index = matrix_pressed()) != -1)
-   {
-          Serial.println(index);
-    }
+    delay(100);
+    return result;
 }
 
 void setup() {
   Serial.begin(9600);
   
-  pinMode(IR_PIN, OUTPUT);
-  pinMode(MACRO1, INPUT);
-  pinMode(MACRO2, INPUT);
-  pinMode(MACRO3, INPUT);
-  pinMode(MACRO4, INPUT);
-  pinMode(MACRO5, INPUT);
-  pinMode(MACRO6, INPUT);
-  pinMode(MACRO7, INPUT);
-  pinMode(MACRO8, INPUT);
+  init_buttons();
   
   // --- Timer2: 38kHz PWM on pin 3 (OC2B) ---
   TCCR2A = _BV(WGM21) | _BV(WGM20);
@@ -533,7 +502,7 @@ int macroMap[num_macros][16][2] = {
 const int macroLength[num_macros] = { 10, 9 };
 
 void loop() {
-  for (int i = 0; i < num_macros; i++)
+  /*for (int i = 0; i < num_macros; i++)
   {
     macros[i] = digitalRead(MACRO1 + i);
   
@@ -555,5 +524,10 @@ void loop() {
         delay(macroMap[i][j][1]);
       }
     }
+  }*/
+  int index = 0, row = 0, col = 0;
+  if ((index = matrix_pressed()) != -1)
+  {
+    Serial.println(index);
   }
 }
