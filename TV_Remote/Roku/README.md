@@ -2,14 +2,6 @@
 
 The goal of the project is the emulate the TV remote's IR LED output to create macros to simplify already simple tasks.
 
-## Parts
-
-- [ ] Arduino
-- [ ] Arduino SD module
-- [ ] 220 ohms resistor
-- [ ] A couple of wires
-- [ ] 18650s for power source 
-
 ## About The Project
 
 This project had one goal in mind. The ability to create a macro for my TV to select a streaming service, Hulu, and go to my favorites to watch the current favorite show, Modern Family.
