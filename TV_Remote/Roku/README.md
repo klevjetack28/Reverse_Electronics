@@ -59,7 +59,7 @@ Later I changed this to have a 4x4 button matrix. The purpose is because I wante
 
 ## Step 6
 
-I ended up switching the board I used from an Arduino Uno to a ESP32-S2 for its WiFi capabilities. The reason is because I did some research and found Roku has an API that I can connect to and query information about icons/apps. This can also be used to create and send the macros but I want to stick with using the signals I generated using the logic analyzer. The point of connected through the API would be to dynamically change the macros if an app were to move. 
+With the decrease in input wires the next challenge was dynamically changing the macros. I set up an LCD with the driver included using only 2 input pins. I would use 10 buttons to have macros 0 - 9 and the other 6 would be used for Up, Down, Left, Roght, OK, and Back. I would use the LCD as an interface for using the buttons to change the macros. Saving the macros to persist in storage was easy woth arduinos EEPROM. Woth a way to persist data on start I now needed a way to interface woth the macros and change them at will. I used two arrays one for the macros and one for the delays where the uses could select up and down which signal they wanted and the delay to follow. This means if your pressing Ok on an app and it takes 7 seconds to load you would select down to the "OK" signal and next be prompted woth the delay selecting the "DELAY_7500" delay. after selecting the delay it would be instantly saved to EEPROM. 
 
 ## Conclusion
 
